@@ -17,6 +17,55 @@ h1{
 
 }
 
+.recipe-menu{
+   margin-left: 50px;
+   margin-right: auto;
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid-column-gap: 50px;
+   grid-row-gap: 10px;
+   padding: 10px;}
+
+.beef{
+    float: left;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.salmon{
+    float: left;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chicken{
+    float: left;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+}
 
 img{
     height: auto;
@@ -62,3 +111,4 @@ ul{
 ol{
     margin-left: 30px;
 }
+
