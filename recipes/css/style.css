@@ -58,3 +58,6 @@ ul{
   list-style-position: inside;  
 }
 
+ol{
+    margin-left: 30px;
+}
